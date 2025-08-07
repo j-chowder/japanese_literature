@@ -1,13 +1,43 @@
 ### Data Collection
 
 - `literary` data was obtained from [Aozora Bunko](https://www.aozora.gr.jp/). Missing features, like inception year and the actual text, were obtained with `Beautiful Soup`.
+     - `id` - primary key
+     - `title` - title of the work
+     - `inception` - year that the work was originally written
+     - `author_id` -  foreign key to the `author_id` in the `author` table.
+     - `author_age` - age of the author during the inception of the work
+     - `book_category`  - the [Nippon Decimal Classification](https://en.wikipedia.org/wiki/Nippon_Decimal_Classification)
+     - `char_type`  -
+     - `char_count` - the character count of the work
+     - `length_type` - bin based off of `char_count`
+         - `flash` -
+         - `shortshort` - 
+         - `short`- 
+         - `novelette` - 
+         - `novel` -
+    - `text` - the webscraped text of the work.
 - `author` data was obtained from Aozora Bunko, [Wikipedia](https://www.wikipedia.org/), and [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page).
+    - `author_id` - primary key
+    - `name` - name of the author
+    - `gender` - gender of the author
+        - `unknown` if no sufficient evidence exists. (anonymous, pen name, etc.)
+        - `N/A` if the author is a group (e.g. ministries)
+    - `birthplace`  - birthplace of the author, standardized to prefecture (or country, if outside Japan)
+    - `birth_date` - date of birth of the author
+    - `death_date` - date of death of the author
+    - `first_work_age` - the age of the author at the inception of their first work
 - `education` data was obtained from 
 - `vital` data was obtained from
 - `birth expectancy` data was obtained from
 - `urbanization` data was obtained from
-- `gdp` data was obtained from
-- `WPI` data is based on year 1945 = 100.
+- `gdp` data. All values are in U.S. dollars adjusted for inflation to the year 2011
+    - `year` - year
+    - `max` - the highest GDPpc global
+    - `jp` - Japan's GDPpc
+    - `percentage` - `jp` / `max` * 100
+- `WPI` [(Wholesale Price Index](https://en.wikipedia.org/wiki/Wholesale_price_index)) data is based on year 1945 = 100.
+    - `year` - year
+    - `WPI` - WPI
     
 ### Acknowledgements
 
