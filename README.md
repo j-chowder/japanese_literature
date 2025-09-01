@@ -38,7 +38,22 @@
 - `WPI` [(Wholesale Price Index](https://en.wikipedia.org/wiki/Wholesale_price_index)) data is based on year 1945 = 100.
     - `year` - year
     - `WPI` - WPI
-    
+
+### Topics
+
+| Topic Number | Keywords | Interpretation |
+|:---|:---|:---|
+| -1 | Data 2 | Data 3 |
+| 0 | Centered | Aligned Right |
+| 1 | Centered | Aligned Right |
+| 2 | Centered | Aligned Right |
+| 3 | Centered | Aligned Right |
+| 4 | 技能 (technical skill) 力強く (strong) 武士 (samurai) 死 (death) 清く (noble adj.) 稽古 (training) 美しい (beautiful) 人格 (character/personality)  | Self Cultivation |
+| 5 | 世間 (society) 階級 (class) 高い/低い (high/low (class)) 意見 (opinion) 相違 (differences) 危險 (danger, risk) | Social Hierarchy  |
+| 6 | 研究 (research) 感服 (admiration) 先生 (teacher, honorific) 坪内 [(Tsubouchi)](https://en.wikipedia.org/wiki/Tsubouchi_Sh%C5%8Dy%C5%8D)  | Scholarly Appreciation |
+| 7 | 他人 (other people) 作り上げ (forced (personality, smile, etc.)) 芝居 (acting) 媚びる (to flirt) 態度 (attitude) 眞 (truth, authenticity) 酒 (alcohol)  | Social Behavior and Authenticty |
+
+
 ### Acknowledgements
 
 - Ministry of Health, Labour and Welfare. (n.d.). Vital Statistics of Japan. Portal Site of Official Statistics of Japan (e‑Stat). Retrieved August 6th, 2025, from https://www.e-stat.go.jp/en/stat-search/files?page=1&toukei=00450011&tstat=000001028897
