@@ -43,14 +43,14 @@
 
 | Topic Number | Keywords | Interpretation |
 |:---|:---|:---|
-| -1 | Data 2 | Data 3 |
-| 0 | Centered | Aligned Right |
-| 1 | Centered | Aligned Right |
-| 2 | Centered | Aligned Right |
-| 3 | Centered | Aligned Right |
-| 4 | 技能 (technical skill) 力強く (strong) 武士 (samurai) 死 (death) 清く (noble adj.) 稽古 (training) 美しい (beautiful) 人格 (character/personality)  | Self Cultivation |
-| 5 | 世間 (society) 階級 (class) 高い/低い (high/low (class)) 意見 (opinion) 相違 (differences) 危險 (danger, risk) | Social Hierarchy  |
-| 6 | 研究 (research) 感服 (admiration) 先生 (teacher, honorific) 坪内 [(Tsubouchi)](https://en.wikipedia.org/wiki/Tsubouchi_Sh%C5%8Dy%C5%8D)  | Scholarly Appreciation |
+| -1 | 修養 (self-improvement) 描く (to draw) 繪 (drawing/painting) 學生 (student) 部 ((school) club) 希望 (hope, aspiration) 欲望 (desire)   | Youth Aspirations |
+| 0 | 藝術 (the arts) 外見 (appearance) 面 (face, surface) 裝 & 服 (clothing) 音 (sound) 物 (stuff) 事 (things) | Aesthetics and Appearance |
+| 1 | 革新 (innovation) 専門 (specialization) 獨逸 (Germany) 立派 (splendid, praiseworthy) 識者 (intellectual) 目的 (goal) | Westernization of Japan |
+| 2 | 雅 ([Miyabi](https://en.wikipedia.org/wiki/Miyabi)) 魂 (soul) 亡くなる (to pass away) 危篤 (verge of death) 息 (breathing) 枕許曲 (bedside) 失 (loss) 海 (sea) | Death |
+| 3 | 技能 (technical skill) 力強く (strong) 武士 (samurai) 死 (death) 清く (noble, pure) 稽古 (training) 美しい (beautiful) 人格 (character/personality)  | Self Cultivation |
+| 4 | 世間 (society) 階級 (class) 高い/低い (high/low (class)) 意見 (opinion) 相違 (differences) 危險 (danger, risk) | Social Hierarchy  |
+| 5 | 文學 (literature) 美術 (fine arts) 生活 (daily life) 一群 & 連中 (group (of people)) 己れ (oneself) 歩 (progress) | Cultural Life |
+| 6 | 研究 (research) 感服 (admiration) 先生 (teacher, honorific) 坪内 ([Tsubouchi](https://en.wikipedia.org/wiki/Tsubouchi_Sh%C5%8Dy%C5%8D))  | Scholarly Appreciation |
 | 7 | 他人 (other people) 作り上げ (forced (personality, smile, etc.)) 芝居 (acting) 媚びる (to flirt) 態度 (attitude) 眞 (truth, authenticity) 酒 (alcohol)  | Social Behavior and Authenticty |
 
 
