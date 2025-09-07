@@ -1,3 +1,9 @@
+### Goals:
+
+1. Utilize text classification technology to organize 20th century Japanese literature into various defined topics.
+2. Build and train classification models to gain insights on what features are most significant in determining topic assignment
+3. Visualize and compile my results to an interactable dashboard.
+
 ### Data Collection
 
 - `literary` data was obtained from [Aozora Bunko](https://www.aozora.gr.jp/). Missing features, like inception year and the actual text, were obtained with `Beautiful Soup`.
