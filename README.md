@@ -59,6 +59,23 @@
 | 6 | 研究 (research) 感服 (admiration) 先生 (teacher, honorific) 坪内 ([Tsubouchi](https://en.wikipedia.org/wiki/Tsubouchi_Sh%C5%8Dy%C5%8D))  | Scholarly Appreciation |
 | 7 | 他人 (other people) 作り上げ (forced (personality, smile, etc.)) 芝居 (acting) 媚びる (to flirt) 態度 (attitude) 眞 (truth, authenticity) 酒 (alcohol)  | Social Behavior and Authenticty |
 
+### Feature Importance
+- all values are the corresponding mean(|SHAP value|)
+
+| Topic Number | 1st SHAP | 2nd SHAP | 3rd SHAP | 4th SHAP | 5th SHAP | Interpretation |
+|:---|:--:|:---|
+| -1 | `length_type_flash` = 0.61 | `char_type_新字新仮名` = 0.32 | `length_type_novelette` = 0.29 | `authorAge` = 0.25 | `no_education` = 0.19 |
+| 0 | `first_work_age` = 0.54 | `char_type_新字新仮名` = 0.45 | `length_type_flash` = 0.34 | `char_type_旧字旧仮名` = 0.18 | `authorAge` = 0.17 |
+| 1 | `first_work_age` = 0.48 | `authorAge` = 0.26 | `no_education` = 0.2 | `gender_female` = 0.14 | `length_type_shortshort` = 0.14 |
+| 2 | `char_type_新字新仮名` = 0.81 | `authorAge` = 0.43 | `first_work_age` = 0.42 | `length_type_flash` = 0.16 | `char_type_旧字旧仮名` = 0.15 |
+| 3 | `authorAge` = 0.59 | `first_work_age` = 0.46 | `no_education` = 0.42 | `char_type_新字新仮名` = 0.29 | `post_secondary` = 0.16 |
+| 4 | `char_type_新字新仮名` = 0.49 | `first_work_age` = 0.41 | `authorAge` = 0.28 | `char_type_新字旧仮名` = 0.22 | `no_education` = 0.21 |
+| 5 | `length_type_flash` = 1.70 | `length_type_shortshort` = 0.44 | `length_type_short` = 0.29 | `length_type_novelette` = 0.28 | `authorAge` = 0.14 |
+| 6 | `authorAge` = 0.31 | `first_work_age` = 0.31 | `char_type_新字新仮名` = 0.24 | `no_education` = 0.24 | `length_type_novelette` = 0.17 | 
+| 7 | `first_work_age` = 0.38 | `authorAge` = 0.35 | `char_type_新字新仮名` = 0.28 | `no_education` = 0.24 | `length_type_flash` = 0.17 | 
+
+
+
 
 ### Acknowledgements
 
