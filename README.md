@@ -1,18 +1,26 @@
 # Text Classification of Japanese Literature
 
+<div align='center'>
+     <img src="BookGif.gif" alt="Book gif" width="600"/>
+</div>
+
+---
 ### Goal:
 Complete an end-to-end data science project to answer the question: <br>
 
-<div align="center"><h3>How can I shape 20th century Japanese literature into a text classification task?</h3></div>
+<div align="center" ><h3>How can I shape 20th century Japanese literature into a text classification task?</h3></div>
 <br>
 
-**Subgoals**
+---
+
+#### Subgoals
 1. **Collect all my data** without the use of easily accessible datasets (e.g. Kaggle)
 2. Rather than just using predefined classes, like genres, **utilize text classification technology** to classify each work into various defined topics.
 3. **Build and train classification models** that can accurately classify a work to a topic without the text. Instead, using metadata (author age and gender, character types and count, etc.) and contextual data (education rates).
 4. Use SHAP values to gain **insights on what features are most significant** in determining topic assignment
 5. **Investigate misclassifications** to be able to understand what features caused it.
 
+---
 
 ### Data Collection
 
@@ -53,6 +61,8 @@ Complete an end-to-end data science project to answer the question: <br>
 - `WPI` [(Wholesale Price Index](https://en.wikipedia.org/wiki/Wholesale_price_index)) data is based on year 1945 = 100.
     - `year` - year
     - `WPI` - WPI
+
+---
 
 ### Topic Modeling
 > See `topic_modeling.ipynb` for the source code
@@ -155,6 +165,8 @@ I was able to increase $c_v$, without sacrificing the other metrics too much, fr
 | 6 | 研究 (research) 感服 (admiration) 先生 (teacher, honorific) 坪内 ([Tsubouchi](https://en.wikipedia.org/wiki/Tsubouchi_Sh%C5%8Dy%C5%8D))  | Scholarly Appreciation |
 | 7 | 他人 (other people) 作り上げ (forced (personality, smile, etc.)) 芝居 (acting) 媚びる (to flirt) 態度 (attitude) 眞 (truth, authenticity) 酒 (alcohol)  | Social Behavior and Authenticty |
 
+---
+
 ### EDA
 > Refer to my source code --> `eda.ipynb`. This section is just going to be highlights or insights that I felt was interesting to discover.
 
@@ -218,10 +230,12 @@ Interesting that there are so many works in the Showa period relative to authors
 - Topic 3 generally has the highest no education rates.
 - Topic 1 generally has the lowest no education rates, followed by Topic -1 and 0, all of which are mostly 新字新仮名 (most modern character type).
 
+---
+
 ### Model Building
 > [Optuna](https://github.com/optuna/optuna) was used to facilitate hyperparameter tuning.
 
-
+---
 
 ### Feature Importance
 - all values are the corresponding mean(|SHAP value|)
