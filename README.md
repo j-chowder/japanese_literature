@@ -178,8 +178,8 @@ Interesting that there are so many works in the Showa period relative to authors
 - `Taisho` - 3.03 works / author
 - `Showa` - 9.48 works / author
 
-<img align="left" width="48%" alt="image" src="https://github.com/user-attachments/assets/49f4f29e-7534-4a52-80b8-34563bf0eb66" /> 
-<img align="right" width="48%" alt="image" src="https://github.com/user-attachments/assets/5d89b30d-8ab6-413a-9374-24900ccdd416" />
+<img align="left" width="30%" alt="image" src="https://github.com/user-attachments/assets/49f4f29e-7534-4a52-80b8-34563bf0eb66" /> 
+<img align="right" width="30%" alt="image" src="https://github.com/user-attachments/assets/5d89b30d-8ab6-413a-9374-24900ccdd416" />
 
 - Topic 2 and Topic 5 have considerably younger authors compared to the rest.
 
@@ -360,8 +360,8 @@ Interesting that there are so many works in the Showa period relative to authors
 ### Investigating misclassifications
 
 <figure>
-<img align="left" width="40%" src="https://github.com/user-attachments/assets/5020a721-0900-4868-9df4-d2415f80803b" />
-<img align="right" width="40%" src="https://github.com/user-attachments/assets/7cb92a8a-1083-4ec6-9e31-dcbadf2650b3" />
+<img align="left" width="30%" src="https://github.com/user-attachments/assets/5020a721-0900-4868-9df4-d2415f80803b" />
+<img align="right" width="30%" src="https://github.com/user-attachments/assets/7cb92a8a-1083-4ec6-9e31-dcbadf2650b3" />
 <br>     
 <figcaption> 
      <em>Both plots are of the same misclassified observations (predicted Topic 2, real Topic 1).  
