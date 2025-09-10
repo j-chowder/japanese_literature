@@ -360,8 +360,8 @@ Interesting that there are so many works in the Showa period relative to authors
 ### Investigating misclassifications
 
 <figure>
-<img align="left" width="48%" src="https://github.com/user-attachments/assets/5020a721-0900-4868-9df4-d2415f80803b" />
-<img align="right" width="48%" src="https://github.com/user-attachments/assets/7cb92a8a-1083-4ec6-9e31-dcbadf2650b3" />
+<img align="left" width="40%" src="https://github.com/user-attachments/assets/5020a721-0900-4868-9df4-d2415f80803b" />
+<img align="right" width="40%" src="https://github.com/user-attachments/assets/7cb92a8a-1083-4ec6-9e31-dcbadf2650b3" />
 <figcaption> 
      <em>Both plots are of the same misclassified observations (predicted Topic 2, real Topic 1).  
      Left: Topic 2 as the baseline (wrong). Right: Topic 1 as the baseline (right).</em> </figcaption>
@@ -373,10 +373,7 @@ Interesting that there are so many works in the Showa period relative to authors
 2. The works not being the 新字新仮名 character type and some being the 旧字旧仮名 character type significantly contributes to the algorithm misclassifying documents as Topic 2 (older works).
 3. The works not being flash, not being shortshort, being novelettes, and being novels correlate more with Topic 2 (longer books).
     
-
-
-
-
+---
 
 ### Acknowledgements
 
