@@ -9,7 +9,7 @@
 Complete an end-to-end data science project to answer the question: <br>
 
 <div align="center" ><h3>How can I shape 20th century Japanese literature into a text classification task?</h3></div>
-<br>
+
 
 ---
 
@@ -233,7 +233,34 @@ Interesting that there are so many works in the Showa period relative to authors
 ---
 
 ### Model Building
+> Refer to my source code --> `model_building.ipynb`.
+
+I tested multiple models:
 > [Optuna](https://github.com/optuna/optuna) was used to facilitate hyperparameter tuning.
+
+| Method | Accuracy Score (all features) | Accuracy Score (post feature removal) |
+|:---|:--:|:--:|
+| Null case* | 0.297 | 0.297 |
+| K Nearest Neighbors | 0.6 | 0.597 |
+| Logistic Regression | 0.556 | 0.541 |
+| Pre-pruned Decision Tree | 0.600 | 0.598 | 
+| Post-pruned Decision Tree | 0.600 | 0.612 |
+| Random Forest | 0.610 | 0.628 | 
+| **XGBoost** | **0.626** | **0.634** |
+
+> `*` The case of classifying all observations to the majority class.
+
+`Accuracy` was used as the scoring function for its interpretability and simplicity, and due to the cost of false positives and false negatives being equal.
+
+#### Feature Removal
+> See the insights regarding feature importance [here](#Feature-Importance).
+
+In short: 
+- I had 52 overall features, most of which were contextual data, like the suicide rate or the GDP of Japan when the work was written.
+- Upon investigating the individual feature importance for my best performing model, I realized that only a subset of those features are actually significant -- that is, many features were noise.
+- Using recursive feature elimination, I reduced the number of features for the purpose of my model from 52 --> 14.
+
+This simplified the model, facilitating model interpretability all while still increasing accuracy.
 
 ---
 
@@ -375,6 +402,13 @@ Interesting that there are so many works in the Showa period relative to authors
    
 ---
 ### Investigating misclassifications
+<p align='center'>
+     <img  width="542" height="452" alt="image" src="https://github.com/user-attachments/assets/a095d454-976b-4a37-a1e2-3a66b8bb6805" />
+</p>
+<div align='center'><em>Confusion Matrix of XGBoost model. Circled tile = misclassified observations (predict 2 when actually 1) that are going to be investigated below.</em></div>
+
+<br>
+<br>
 
 <figure>
 <img  width="40%" src="https://github.com/user-attachments/assets/5020a721-0900-4868-9df4-d2415f80803b" />
