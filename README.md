@@ -65,7 +65,7 @@ Complete an end-to-end data science project to answer the question: <br>
 ---
 
 ### Topic Modeling
-> See `topic_modeling.ipynb` for the source code
+> Refer to my source code --> `topic_modeling.ipynb`.
 
 >[!NOTE]
 >Throughout, it was necessary for me to do things in a roundabout way or suboptimally as I prioritized memory management. BERTopic is very expensive :(. Whether it was embedding in batches, or saving each step to disk, note that this is _not required_, but was personally necessary.
