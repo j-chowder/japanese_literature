@@ -1,3 +1,5 @@
+# Text Classification of Japanese Literature
+
 ### Goal:
 Complete an end-to-end data science project to answer the question: <br>
 
@@ -360,8 +362,9 @@ Interesting that there are so many works in the Showa period relative to authors
 <figure>
 <img align="left" width="48%" src="https://github.com/user-attachments/assets/5020a721-0900-4868-9df4-d2415f80803b" />
 <img align="right" width="48%" src="https://github.com/user-attachments/assets/7cb92a8a-1083-4ec6-9e31-dcbadf2650b3" />
-<figcaption> <em> Both plots are of the same misclassified observations (predicted Topic 2, real Topic 1).  
-     Left: Topic 2 as the baseline (wrong). Right: Topic 1 as the baseline (right). </em> </figcaption>
+<figcaption> 
+     <em>Both plots are of the same misclassified observations (predicted Topic 2, real Topic 1).  
+     Left: Topic 2 as the baseline (wrong). Right: Topic 1 as the baseline (right).</em> </figcaption>
 </figure>
 
 <div></div><br>
